@@ -15,6 +15,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "mybucket" {
-  bucket = thisismytestbucketforspaceliftlskjdfoe8983kd
+  bucket = "thisismytestbucketforspaceliftlskjdfoe8983kd"
 }
 
