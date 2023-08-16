@@ -2,6 +2,7 @@ provider "aws" {
   assume_role_with_web_identity {
     role_arn                = "arn:aws:iam::671866886773:role/spacelift-role"
     web_identity_token_file = "/mnt/workspace/spacelift.oidc"
+    region                  = "us-east-1"
   }
 
   default_tags {
